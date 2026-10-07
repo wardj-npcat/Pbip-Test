@@ -1,0 +1,110 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "ReportSectionefef22a391709c023b4f",
+  "displayName": "Fixed Term Suspensions Overview",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          },
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Power BI Template Files.png'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Power_BI_Template_Files9426576153128212.png"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "width": {
+            "expr": {
+              "Literal": {
+                "Value": "184L"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "52278504e920ed3cf45f",
+      "type": "NoFilter"
+    },
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "ea8556a4453eec7ba622",
+      "type": "NoFilter"
+    },
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "6817e93c015c0006ae47",
+      "type": "NoFilter"
+    },
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "346013a3972172dcf079",
+      "type": "NoFilter"
+    },
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "a40421d957f38829eedd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "f76e8bc24f392e7b7cc9",
+      "type": "NoFilter"
+    },
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "03c4d7c1f10b2def2955",
+      "type": "NoFilter"
+    },
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "cb2c089a1a58dc1621ff",
+      "type": "NoFilter"
+    },
+    {
+      "source": "54b96065d7975d5ed530",
+      "target": "fdd3156c4ee289492779",
+      "type": "NoFilter"
+    }
+  ]
+}
